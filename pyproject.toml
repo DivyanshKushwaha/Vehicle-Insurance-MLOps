@@ -1,0 +1,11 @@
+[project]
+name = "src"
+version = "0.0.1"
+description = "Project on vehicle insurance domain with MLOps"
+authors = [{name = "Divyansh Kushwaha", email = "divyanshkushwaha608@gmail.com"}]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
